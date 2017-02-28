@@ -60,7 +60,7 @@ void shuffle(card *deck)
 				c.type = 'x';
 				deck[i] = c;
 				break;
-			default:				// Something went wrong i
+			default:				// Something went wrong if this is reached
 				c.type = '_';
 				deck[i] = c;
 				break;
